@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -59,10 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "items_not_allowed|163068000|75057000|41456f29-a703-4d12-85d0-c21ea7c0a452|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|163068000|75057000|7f7682d1-a5f5-4493-8e01-c35882b526c9|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -129,7 +126,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -139,7 +136,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -493,7 +490,7 @@
       "idf": "",
       "netlist": "../../../../Applications/KiCad/KiCad.app/Contents/Applications/",
       "plot": "gerbers",
-      "pos_files": "gerbers",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "upsy-desky.step",
       "svg": "",
@@ -582,7 +579,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -692,6 +689,10 @@
     [
       "f40a33af-1f02-482d-8827-6bd150214691",
       "Root"
+    ],
+    [
+      "21f2c0b6-e0dc-44b8-a977-1fc71daa305c",
+      "MCU"
     ]
   ],
   "text_variables": {}
